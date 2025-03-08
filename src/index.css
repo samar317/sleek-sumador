@@ -25,6 +25,14 @@
     --input: 220 13% 91%;
     --ring: 262.1 83.3% 57.8%;
     --radius: 0.75rem;
+    
+    /* Calculator theme colors - can be changed through UI */
+    --calculator-main: #8B5CF6;
+    --calculator-secondary: #D946EF;
+    --calculator-light: #E5DEFF;
+    --calculator-dark: #1A1F2C;
+    --calculator-operator: #7E69AB;
+    --calculator-equals: #0EA5E9;
   }
  
   .dark {
@@ -109,6 +117,23 @@
   
   .dark .calculator-input {
     @apply text-gray-400;
+  }
+  
+  .text-calculator-main {
+    color: var(--calculator-main);
+  }
+  
+  .bg-calculator-main {
+    background-color: var(--calculator-main);
+  }
+  
+  .from-calculator-main {
+    --tw-gradient-from: var(--calculator-main);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(139, 92, 246, 0));
+  }
+  
+  .to-calculator-secondary {
+    --tw-gradient-to: var(--calculator-secondary);
   }
   
   /* Enhanced mobile responsiveness */

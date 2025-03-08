@@ -54,12 +54,12 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				calculator: {
-					main: '#8B5CF6',
-					secondary: '#D946EF',
-					light: '#E5DEFF',
-					dark: '#1A1F2C',
-					operator: '#7E69AB',
-					equals: '#0EA5E9',
+					main: 'var(--calculator-main)',
+					secondary: 'var(--calculator-secondary)',
+					light: 'var(--calculator-light)',
+					dark: 'var(--calculator-dark)',
+					operator: 'var(--calculator-operator)',
+					equals: 'var(--calculator-equals)',
 				}
 			},
 			borderRadius: {
